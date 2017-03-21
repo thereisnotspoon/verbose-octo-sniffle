@@ -1,0 +1,9 @@
+{% if 1 == 1 %}
+    <ul>
+    {% for var in A %}
+    <li><a href="/polls/">{{ var }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}
